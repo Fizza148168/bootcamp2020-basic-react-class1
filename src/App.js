@@ -13,7 +13,7 @@ const hello= ({name})=>
 function App({name,lastName,age}) {
   return <div className="myapp">
          Hello from  <strong>{name}</strong>
-         <span>&#128512; &#128516; &#128525; &#128151;</span> <br/>
+         <span role="img" aria-label="Emojis">&#128512; &#128516; &#128525; &#128151;</span> <br/>
          <ul>
             <li>{name}</li>
             <li>{lastName}</li>
