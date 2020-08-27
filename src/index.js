@@ -6,7 +6,9 @@ import App from './App'
 
 
 ReactDOM.render(
-  <div><App name="Fizza" lastName="Shabbir" age={23}/></div>,
+  <div><App name= "Fizza" lastName="Shabbir" age={23}/>
+  <p className="myindex">This is my Github id <a href="url">https://github.com/Fizza148168/bootcamp2020-basic-react-class1</a></p>
+  </div>,
     document.getElementById('root')
   );
  /*

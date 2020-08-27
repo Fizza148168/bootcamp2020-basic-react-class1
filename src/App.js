@@ -11,10 +11,19 @@ const hello= ({name})=>
 */
 
 function App({name,lastName,age}) {
-  return <div>
-         Hello from App.js updated {name} {lastName}
-         Age{age-10}
-         <br/>
+  return <div className="myapp">
+         Hello from  <strong>{name}</strong>
+         <p>&#128512; &#128516; &#128525; &#128151;</p> <br/>
+         <ul>
+            <li>{name}</li>
+            <li>{lastName}</li>
+            <li>{5+10}</li>
+         </ul>
+         <ol>
+          <li>{name}</li>
+          <li>{lastName}</li>
+          <li>{age}</li>
+         </ol>
          <Hello fName={name}></Hello>
          </div>
 }
